@@ -1,0 +1,202 @@
+body{
+    margin-left:50px;
+    margin-right: 50px;
+    background-color: white;
+  
+    
+}
+
+.nav {
+    display: inline; /* Or inline-block */
+}
+#left-nav{
+  float:left;
+}
+#right-nav{
+  float:right;
+}
+li{
+  display: inline-block;
+}
+a{
+  text-decoration: none;
+  background-color:black;
+  color:white;
+  text-align:center;
+  padding: 10px;
+  margin:0px;
+  padding-top:0px;
+}
+.container1{
+  background-color: black;
+  padding: 50px;
+  padding-top:0px;
+}
+.logo{
+    font-family: cursive;
+    font-size: 15px;
+    color: deepskyblue;
+  
+}
+.container2{
+  display: inline;
+    
+}
+.left-pan{
+  float:left;
+  width:70%;
+  background-color: white;
+  color: black;
+  border-bottom: 0px;
+}
+.right-pan{
+  float: right;
+  width:30%;
+  text-align: center;
+  background-color: white;
+  color: black;
+  
+}
+#category{
+  padding:5px;
+}
+.join-us{
+    margin: 8px;
+}
+.container3{
+            display:inline-block;
+}
+.block{
+          border: 0.5px;
+          padding: 10px;
+          box-shadow: 5px 10px 8px #888888;
+          width: 45%;
+          height: 600px;
+          padding: 20px;
+          margin:10px;
+          float:left;
+          align:center;
+          background-color: aliceblue;
+}
+.block1{
+  border: 0.5px;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+  width: 45%;
+  height: 600px;
+  padding: 20px;
+  margin:10px;
+  float:left;
+  align:center;
+  background-color: aliceblue;
+}
+.block2{
+  border: 0.5px ;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+  width: 45%;
+  height: 600px;
+  padding: 20px;
+  margin:10px;
+  float:right;
+  align:center;
+  background-color: aliceblue; 
+}
+.division1{
+  display: inline block;
+}
+h2, h4{
+  color: royalblue;
+}
+#button{
+    padding: 10px;
+    background-color:royalblue ;
+    float: right;
+}
+.container4{
+  background-color: white;
+  padding: 50px;
+  padding-top:0px;
+}
+.container5{
+    
+    display: inline;
+}
+.footer1{
+    width:80%;
+    float:left;
+}
+td, th{
+   text-align: left; 
+    padding: 10px;
+}
+th{
+    color: dimgrey;
+}
+td{
+    color: royalblue;
+}
+footer1{
+    float:left;
+    width: 80%;
+
+}
+footer2{
+    float:right;
+    width: 20%;
+    
+    
+}
+
+#authorInfo{
+    margin-left: 300px; 
+}
+#postContent{
+    margin-left: 300px; 
+    
+}
+.loginblock{
+          border: 0.5px;
+          padding: 10px;
+          box-shadow: 5px 10px 8px #888888;
+          width: 30%;
+          height: 300px;
+          padding: 15px;
+          margin:10px;
+          background-color: aliceblue;
+          margin-left: 500px;
+          margin-top:100px;
+          padding-top: 100px;
+   
+          
+}
+#authorInfo1{
+    float: left;
+}
+#postContent1{
+    float:right;
+    
+}
+.contentBlog{
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

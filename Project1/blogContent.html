@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="stylesheet.css">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body style="background-color: aliceblue;">
+        <script type="text/javascript" src="prog.js"></script>
+         <div class="container1">
+          <div id="left-nav" class="nav" >
+            <ul>
+              <li><a class="logo"><b>VK</b></a></li>
+              <li><a href="#">Product</a></li>
+              <li><a href="index.html">Blog</a></li>
+              <li><a href="#">About</a></li>
+            </ul>
+          </div>
+          <div id="right-nav" class="nav">
+            <ul>
+              
+              <li><i class="bi bi-search"></i></li>
+              <li><a href="#">Resources</a></li>
+              <li><a href="#">VK Pro</a></li>
+              <li><a href="#">VK Local</a></li>
+              <li><a href="#">Free SEO tools</a> </li>
+              <li><a href="#" style="color: deepskyblue">Admin</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="content1" >
+            
+            <form id="authorInfo" >
+                <h1 style="color: royalblue;">Blog Post Submission Form</h1>
+                <h3 style="color: royalblue;">Author Details</h3>
+                <p><b>Please enter your contact details so that we can give you the proper credit for your blog post</b></p>
+                <label>Name</label>&nbsp; <input type="text" name="yname">
+                <br/><br/>
+                <label>Short Author Bio</label><br/><br/>
+                <textarea id="AuthorBio" name="AuthorBio" rows="2" cols="80"></textarea><br/>
+                <small>Please keep it below 100 characters</small>
+                <br/><br/>
+            </form>
+            <form id="postContent">
+                <h3 style="color: royalblue;">Create a Blog Post</h3>
+                <p><b>Please submit your guest blog post</b></p>
+                <label>Featured Image</label>&nbsp;
+                <input type="file" id="myFile" name="filename">
+                <br/><br/>
+                <label>Post Header</label><br/><br/>
+                <textarea id="Header" name="Header" rows="2" cols="80"></textarea>
+                <br/><br/>
+                <label>Brief Post Content</label><br/><br/>
+                <textarea id="briefContent" name="briefContent" rows="4" cols="80"></textarea><br/>
+                <small>Please keep it below 300 characters</small>
+                <br/><br/>
+                <label>Post Content</label><br/><br/>
+                <textarea id="content" name="content" rows="4" cols="80"></textarea>
+                <br/><br/>
+                
+            </form>
+            <button onclick="readAddedBlogContent()" style="margin-left: 300px; padding:10px; background-color: royalblue;color: white">Save Content</button>
+            
+        </div>
+        
+    </body>
+
+</html>
